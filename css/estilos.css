@@ -6,6 +6,29 @@ body {
     margin: 0px;
 }
 
+.contenedorIndex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 0.5fr 0.1fr;
+    grid-template-areas: 
+    "header header"
+    "excursiones excursiones"
+    "guias guias"
+    "redes redes"
+}
+
+.navegacion {
+    grid-area: header; 
+}
+
+.equipo {
+    grid-area: guias;
+}
+
+.fin {
+    grid-area: redes;
+}
+
 header {
     background-color: #f6f9d0;
     color: black;
@@ -43,6 +66,7 @@ ul li, a {
 .principal {
     background-color: black;
     color:#f6f9d0;
+    grid-area: excursiones;
 }
 
 .titulo {    
@@ -168,6 +192,17 @@ footer {
 .diseno {
     font-size: 20px;
 }
+
+.contenedorExcursiones {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    grid-template-areas: 
+    "header header"
+    "excursiones excursiones"
+    "redes redes"
+}
+
 
 .imagenesPrincipales {
     display: flex;
