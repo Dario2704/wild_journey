@@ -1,0 +1,233 @@
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: #f6f9d0;
+    color: black;
+    width: 100%;
+    margin: 0px;
+    }
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-left: 50px;
+    position: relative; left: 60px;
+}
+
+ul li, a {
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+
+.principal {
+    background-color: black;
+    color:#f6f9d0;
+}
+
+.titulo {    
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.subtitulo {
+    font-size: 20px;
+}
+
+
+.tituloDescripcion {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+.imagenesPrincipal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.imagenesPrincipal img {
+    margin-left: 20px;
+    margin-right: 20px;
+    height:300px;
+    width: 200px;
+}
+
+div form {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.conoceMas {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f6f9d0;
+    padding: 5px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+
+.conoceMas:hover {
+    background-color: black;
+    color:#f6f9d0;
+    cursor: pointer;
+}
+
+article {
+    background-color: black;
+    color:#f6f9d0;
+}
+
+article p {
+    margin-top: 0px;
+    padding-left: 15px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+
+.guias {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.guias img {
+    height: 300px;
+    width: 300px;
+}
+
+.nombresGuias {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.guia1 {
+    position: relative; right: 60px;
+}
+
+.guia3 {
+    position: relative; left: 55px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #f6f9d0;
+    color: black;
+}
+
+.redes {
+    padding-left: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.empresa {
+    margin-left: auto;
+    padding-right: 10px;
+}
+
+.diseno {
+    font-size: 20px;
+}
+
+.imagenesPrincipales {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.imagenesPrincipales img {
+    margin-left: 20px;
+    margin-right: 20px;
+    height:300px;
+    width: 200px;
+    padding-top: 40px;
+    transition: 0.5s;
+}
+
+.imagenesPrincipales img:hover {
+    transform: scale(1.2,1.2);
+}
+
+.titulos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.excursion {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.viajes {
+    width: 200px;
+}
+
+.excursion .viajes p {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+div .viajePersonalizado {
+    position: relative; left: 20px;
+}
+
+.desierto {
+    position: relative; right: 60px;
+}
+
+.selva {
+    position: relative; right: 20px;
+}
+
+.artico {
+    position: relative; left: 30px;
+}
+
+.personalizado {
+    position: relative; left: 60px;
+}
