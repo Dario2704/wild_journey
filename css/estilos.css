@@ -41,7 +41,6 @@ ul {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    align-items: center;
     margin: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -265,4 +264,120 @@ div .viajePersonalizado {
 
 .personalizado {
     position: relative; left: 60px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .logo {
+        height: 30px;
+        width: 30px;
+        position: relative; left: 40px;
+    }
+    
+    ul li, a {
+        font-size: 20px;
+    }
+
+    .guias img {
+        height: 200px;
+        width: 200px;
+    }
+    
+
+    .imagenesPrincipal img {
+        margin-left: 20px;
+        margin-right: 20px;
+        height:200px;
+        width: 200px;
+    }
+
+    .tituloDescripcion {
+        margin-left: 50px;
+    }
+
+    .redes {
+        height: 30px;
+        width: 30px;
+    }
+
+    .diseno {
+        font-size: 15px;
+    }
+
+    .imagenesPrincipales img {
+        margin-left: 20px;
+        margin-right: 20px;
+        height:200px;
+        width: 200px;
+    }
+
+    .excursion {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .contenedorIndex {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.1fr 0.5fr 0.1fr;
+    }
+    
+
+    .titulo {
+        margin-right: 40px;
+        font-size: 30px;
+    }
+
+    .subtitulo {
+        margin-left: 30px;
+    }
+
+
+    .imagenesPrincipal {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagenesPrincipal img {
+        margin-bottom: 40px;
+    }
+
+    .logo {
+        height: 30px;
+        width: 30px;
+        position: relative; left: 5px;
+    }
+
+    .guias {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .guias img {
+        margin-bottom: 30px;
+    }
+
+    .nombresGuias {
+        display: none;
+    }
+
+
+    .diseno {
+        font-size: 15px;
+    }
+
+    .empresa {
+        padding: 0px;
+    }
+
+    .imagenesPrincipales {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulos , .excursion {
+        display: none;
+    }
 }
